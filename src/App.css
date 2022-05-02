@@ -1,0 +1,182 @@
+.App {
+  background-image: url('background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: right;
+}
+
+.grid {
+  width: 75vw;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  color: #406086;
+  position: relative;
+  margin-block-start: 75px;
+}
+
+.adventure-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-75%);
+}
+
+.flag-image {
+  border: 1px solid;
+}
+
+/* when it was a div vs a button now
+.answer-bubble {
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #4143AF;
+  border: 2px solid #4143AF;
+  font-weight: bolder;
+  margin-block-end: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+*/
+
+.answer-bubble {
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #4143AF;
+  border: 2px solid #4143AF;
+  font-weight: bolder;
+  margin-block-end: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+}
+
+.answer-bubble:focus {
+  border: 2px solid #f9a826;
+  outline: 2px solid #f9a826;
+}
+
+.answer {
+  background: #f9a826;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.answer-button {
+  margin-block-start: 20px;
+  width: 100px;
+  cursor: pointer;
+  background: #f9a826;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.hidden {
+  height: 0;
+  font-size: 0;
+  width: 0;
+  user-select: none;
+}
+
+.question-div {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.green {
+  color:#6fcf97;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.results-button {
+  background: #fff;
+  border: 2px solid #3a4c6a;
+  color: #3a4c6a;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+@media (min-width: 1000px){
+  .question-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+  }
+
+  .grid {
+    width: 50vw;
+    margin: 0;
+  } 
+}
+
+/*
+.App {
+  background-image: url('background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+  align-items: center;
+  justify-items: center;
+  gap: 25px;
+}
+
+.answer-bubble {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: fit-content;
+  cursor: pointer;
+  color: #000;
+}
+
+.answer {
+  background: goldenrod;
+}
+
+button {
+  grid-column: 1 / -1;
+  margin-block-start: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.hidden {
+  height: 0;
+  font-size: 0;
+  width: 0;
+}
+*/
