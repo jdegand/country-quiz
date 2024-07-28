@@ -13,7 +13,7 @@ function App() {
       <h1>Country Quiz</h1>
       <div className="grid">
         <img className="adventure-image" src={image} alt="" />
-        {gameState === "playing" && <Quiz score={score} setScore={setScore} setGameState={setGameState} /> }
+        {gameState === "playing" && <Quiz setScore={setScore} setGameState={setGameState} /> }
         {gameState === "results" && <Results score={score} setScore={setScore} setGameState={setGameState} /> }
       </div>
     </main>
