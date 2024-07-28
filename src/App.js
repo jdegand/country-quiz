@@ -1,7 +1,6 @@
 import './App.css';
 import { useState } from 'react';
 import Quiz from './components/Quiz';
-//import Start from './components/Start';
 import Results from './components/Results';
 import image from './undraw_adventure_4hum 1.svg';
 
@@ -22,5 +21,3 @@ function App() {
 }
 
 export default App;
-
-/* {gameState === "start" && <Start setGameState={setGameState} /> } */

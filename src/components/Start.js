@@ -1,6 +1,6 @@
-function Start({setGameState}){
+function Start({ setGameState }) {
     return (
-        <button onClick={()=> setGameState("playing")}>Start Game</button>
+        <button onClick={() => setGameState("playing")}>Start Game</button>
     )
 }
 
