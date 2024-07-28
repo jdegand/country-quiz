@@ -34,20 +34,6 @@
   border: 1px solid;
 }
 
-/* when it was a div vs a button now
-.answer-bubble {
-  border-radius: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
-  color: #4143AF;
-  border: 2px solid #4143AF;
-  font-weight: bolder;
-  margin-block-end: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-*/
-
 .answer-bubble {
   border-radius: 20px;
   padding: 10px 20px;
@@ -102,7 +88,7 @@
 }
 
 .green {
-  color:#6fcf97;
+  color: #6fcf97;
   font-size: 24px;
   font-weight: bold;
 }
@@ -116,7 +102,7 @@
   font-weight: bold;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
   .question-div {
     display: flex;
     align-items: center;
@@ -127,56 +113,5 @@
   .grid {
     width: 50vw;
     margin: 0;
-  } 
+  }
 }
-
-/*
-.App {
-  background-image: url('background.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  text-align: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px;
-  align-items: center;
-  justify-items: center;
-  gap: 25px;
-}
-
-.answer-bubble {
-  background: #fff;
-  border-radius: 20px;
-  padding: 10px 20px;
-  width: fit-content;
-  cursor: pointer;
-  color: #000;
-}
-
-.answer {
-  background: goldenrod;
-}
-
-button {
-  grid-column: 1 / -1;
-  margin-block-start: 20px;
-  width: 100px;
-  cursor: pointer;
-}
-
-.hidden {
-  height: 0;
-  font-size: 0;
-  width: 0;
-}
-*/
