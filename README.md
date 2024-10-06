@@ -10,7 +10,7 @@
       Live Link
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8">
+    <a href="https://web.archive.org/web/20240417033427/https://legacy.devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8">
       Challenge
     </a>
   </h3>
@@ -27,13 +27,21 @@
 
 ## Overview
 
-![Capital Question](country-quiz-capital-question.png)
+![Capital Question](screenshots/country-quiz-capital-question.png)
 
-![Answer Selected](country-quiz-answer-selected.png)
+***
 
-![Flag question on mobile](country-quiz-flag-mobile.png)
+![Answer Selected](screenshots/country-quiz-answer-selected.png)
 
-![Result screen](country-quiz-results.png)
+***
+
+![Flag question on mobile](screenshots/country-quiz-flag-mobile.png)
+
+***
+
+![Result screen](screenshots/country-quiz-results.png)
+
+***
 
 ### Built With
 
@@ -43,7 +51,7 @@
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20240417033427/https://legacy.devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories. **Note**: The previous design document may be incomplete, as you need to find an archived version of the challenge as all `legacy` challenges have had their documentation removed from DevChallenges.
 
 ## Requirements
 
